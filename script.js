@@ -1,7 +1,7 @@
 const countdown = document.getElementById("countdown");
 const timerContainer = document.getElementById("timerContainer");
 
-const timerActive = true;
+const timerActive = false;
 const releaseDate = new Date("2025-04-20T17:00:00").getTime();
 
 function updateCountdown() {
